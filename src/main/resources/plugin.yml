@@ -1,0 +1,12 @@
+name: PureSelling
+version: '1.0-SNAPSHOT'
+main: me.lakoba.pureSelling.PureSelling
+api-version: '1.20'
+prefix: PureSelling
+authors: [ Lakoba ]
+description: Building plugin for DDB Prague minecraft server.
+website: lakoba.xyz
+commands:
+  sellingbin:
+    description: Hlavní příkaz pluginu
+    usage: /sellingbin
