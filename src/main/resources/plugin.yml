@@ -6,7 +6,3 @@ prefix: PureSelling
 authors: [ Lakoba ]
 description: Building plugin for DDB Prague minecraft server.
 website: lakoba.xyz
-commands:
-  sellingbin:
-    description: Hlavní příkaz pluginu
-    usage: /sellingbin

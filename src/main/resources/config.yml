@@ -1,7 +1,10 @@
-bin_block: "COBBLESTONE" # Blok, který slouží jako selling bin
-custom_model_data: 2001 # Custom model data pro itemy
+bin_block: "PAPER" # Blok, který slouží jako selling bin
+bin_block_id: "selling_bin"
+custom_model_data: 3010 # Custom model data pro itemy
 selling_time: 3 # Čas, po který se item bude prodávat v minutách
-item_prices:
-  DIAMOND: 100.0
-  GOLD_INGOT: 50.0
-  IRON_INGOT: 20.0
+item_prices: # Seznam itemů k prodání
+  DIAMOND: # Item který se prodává
+    amount: 64 # Po kolika se item prodává
+    reward: # Odměna
+      item: COBBLESTONE # Typ materiálu který je odměnou
+      amount: 10 # Počet
