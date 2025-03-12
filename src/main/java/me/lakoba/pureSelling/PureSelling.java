@@ -68,21 +68,14 @@ public final class PureSelling extends JavaPlugin implements Listener {
         Player player = event.getPlayer();
         Block block = event.getBlockPlaced();
         int customModelData = getConfig().getInt("custom_model_data", 0);
-        getLogger().warning("Custom model data: " + customModelData);
         int ironCustomModelData = getConfig().getInt("iron_custom_model_data", 0);
-        getLogger().warning("Iron custom model data: " + ironCustomModelData);
         int diamondCustomModelData = getConfig().getInt("diamond_custom_model_data", 0);
-        getLogger().warning("Diamond custom model data: " + diamondCustomModelData);
         int redstoneCustomModelData = getConfig().getInt("redstone_custom_model_data", 0);
-        getLogger().warning("Redstone custom model data: " + redstoneCustomModelData);
         int netheriteCustomModelData = getConfig().getInt("netherite_custom_model_data", 0);
-        getLogger().warning("Netherite custom model data: " + netheriteCustomModelData);
         ItemStack itemInHand = player.getInventory().getItemInMainHand();
 
         if (itemInHand != null && itemInHand.hasItemMeta() && itemInHand.getItemMeta().hasCustomModelData()) {
             int itemCustomModelData = itemInHand.getItemMeta().getCustomModelData();
-
-            getLogger().warning("Item custom model data: " + itemCustomModelData);
 
             if (itemCustomModelData == customModelData) {
                 Location loc = block.getLocation();
