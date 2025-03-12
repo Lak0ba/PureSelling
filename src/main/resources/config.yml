@@ -1,6 +1,19 @@
 bin_block: "PAPER" # Blok, který slouží jako selling bin
 bin_block_id: "selling_bin"
-custom_model_data: 3010 # Custom model data pro itemy
+custom_model_data: 10083 # Custom model data pro itemy
+sell_multiplier: 1
+iron_bin_block_id: "iron"
+iron_custom_model_data: 10084
+iron_sell_multiplier: 1.5
+diamond_bin_block_id: "diamond"
+diamond_custom_model_data: 10085
+diamond_sell_multiplier: 2.2
+redstone_bin_block_id: "redstone"
+redstone_custom_model_data: 10086
+redstone_sell_multiplier: 1.9
+netherite_bin_block_id: "netherite"
+netherite_custom_model_data: 10087
+netherite_sell_multiplier: 2.5
 selling_time: 3 # Čas, po který se item bude prodávat v minutách
 item_prices: # Seznam itemů k prodání
   DIAMOND: # Item který se prodává
